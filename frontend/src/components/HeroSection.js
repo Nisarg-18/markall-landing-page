@@ -1,4 +1,4 @@
-import hero from '../assets/hero.PNG'
+import hero from "../assets/hero.PNG";
 const HeroSection = () => {
   return (
     <div className="flex flex-row justify-between bg-black text-white px-10 py-20 pb-40 hero items-center">
@@ -21,7 +21,7 @@ const HeroSection = () => {
         </div>
       </div>
       <div>
-        <img  className="w-[500px]" src={hero} alt=""/>
+        <img className="w-[500px]" src={hero} alt="" />
       </div>
     </div>
   );
