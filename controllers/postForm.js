@@ -11,13 +11,13 @@ exports.postForm = async (req, res) => {
     const transporter = nodemailer.createTransport({
       service: "gmail",
       auth: {
-        user: process.env.MAIL_ID,
+        user: process.env.FROM_MAIL_ID,
         pass: process.env.PASS,
       },
     });
     const mailOptions = {
-      from: process.env.MAIL_ID,
-      to: "",
+      from: process.env.FROM_MAIL_ID,
+      to: process.env.TO_MAIL_ID,
       subject: "Contact Us Form Details",
       text: `
         name: ${name},
