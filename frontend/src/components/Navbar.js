@@ -2,7 +2,7 @@ const Navbar = () => {
   return (
     <div className="flex flex-row justify-between items-center bg-black text-white px-10 py-5">
       <div className="font-bold text-xl">MARKALL</div>
-      <div>
+      <div className="hidden md:block">
         <a href="/#" className="mr-5">
           Services
         </a>

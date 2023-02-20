@@ -21,3 +21,49 @@ code {
 .hero {
   border-radius: 0% 0% 0% 10%;
 }
+
+.divider {
+  background-color: #000000;
+  height: 2px;
+  width: 100px;
+}
+
+.automation {
+  background-color: #f1f1f1;
+}
+
+.customers {
+  background-color: #fffbee;
+}
+
+.contact {
+  background-color: #eaf2fd;
+}
+
+.fa {
+  color: #2f80ed;
+}
+
+input {
+  outline: 0;
+  border-width: 0 0 1px;
+  border-color: gray;
+}
+input:focus {
+  border-color: #2f80ed;
+}
+
+.submit-btn {
+  background-color: #2f80ed;
+}
+
+.form {
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+

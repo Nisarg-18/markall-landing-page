@@ -1,7 +1,7 @@
 import hero from "../assets/hero.PNG";
 const HeroSection = () => {
   return (
-    <div className="flex flex-row justify-between bg-black text-white px-10 py-20 pb-40 hero items-center">
+    <div className="flex flex-row justify-between bg-black text-white px-10 py-20 pb-10 md:pb-40 hero items-center">
       <div>
         <h1 className="text-5xl font-extrabold mb-10">
           Reach your - <br />
@@ -21,7 +21,7 @@ const HeroSection = () => {
         </div>
       </div>
       <div>
-        <img className="w-[500px]" src={hero} alt="" />
+        <img className="w-[500px] hidden md:block" src={hero} alt="" />
       </div>
     </div>
   );
